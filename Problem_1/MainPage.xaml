@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PasswordApp.MainPage">
+    <StackLayout Padding="20">
+        <Label Text="Enter Password" FontSize="24" HorizontalOptions="Center" Margin="0,0,0,20" />
+        <Entry x:Name="PasswordEntry" Placeholder="Password" IsPassword="True" />
+        <Label x:Name="PasswordHintLabel" FontSize="16" HorizontalOptions="Center" Margin="0,20,0,0" />
+        <Button x:Name="SubmitButton" Text="Submit" Clicked="SubmitButton_Clicked" HorizontalOptions="Center" Margin="0,20,0,0" />
+        <Label x:Name="AttemptsLabel" FontSize="16" HorizontalOptions="Center" Margin="0,20,0,0" />
+    </StackLayout>
+</ContentPage>
